@@ -1,0 +1,64 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.bar {
+	list-style-type: none;
+	width: 100%;
+	margin: 30px auto;
+	padding: 0px;
+	text-align: center;
+
+}
+
+.barItem {
+	display: inline;
+	padding: 100px;
+	cursor: pointer;
+}
+
+h1 {
+	text-align: center;
+}
+
+#recipe1, #recipe2, #recipe3 {
+	width: 700px;
+	height: 700px;
+	border-style: dotted;
+	border-width: 1px;
+	margin: 50px auto;
+}
+
+img {
+	width: 300px;
+	padding: 20px;
+	float: left;
+	display: block;
+}
+
+#ingredients {
+	float: left;
+
+}
+
+p {
+	font-style: italic;
+}
+
+
+#instructions {
+	float: left;
+	width: 650px;
+	margin-left: 20px;
+}
+
+.active {
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.hide {
+	display: none;
+}
